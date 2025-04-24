@@ -26,3 +26,8 @@
   grid-column: 3/4;
   grid-row: 3/4;
 }
+
+.footer {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
