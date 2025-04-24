@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+.word {
+  background-color: bisque;
+}
+
+.word1 {
+  grid-column: 1/2;
+}
+
+.word2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.word3 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
